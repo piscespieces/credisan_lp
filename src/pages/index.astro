@@ -2,16 +2,1007 @@
 
 ---
 
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<meta
+			name="description"
+			content="CrediSan - Soluciones Financieras. Brindamos servicios de confianza en Maracaibo. Tu aliado estratégico para el crecimiento y la estabilidad económica."
+		/>
+		<title>CrediSan - Soluciones Financieras</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<!-- Header -->
+		<header class="header">
+			<div class="header-container">
+				<a href="#" class="logo">
+					<div class="logo-icon">
+						<img
+							src="/images/credisan_logo.jpg"
+							alt="CrediSan Logo"
+							class="logo-img"
+						/>
+					</div>
+					<span class="logo-text">CrediSan</span>
+				</a>
+				<nav class="nav">
+					<!-- <a href="#" class="nav-link">Inicio</a>
+					<a href="#" class="nav-link">Servicios</a>
+					<a href="#" class="nav-link">Nosotros</a> -->
+					<a
+						href="https://wa.me/+584121975469"
+						class="btn btn-primary">Contáctanos</a
+					>
+				</nav>
+				<button class="mobile-menu-btn" aria-label="Abrir menú">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</header>
+
+		<!-- Hero Section -->
+		<section class="hero">
+			<div class="hero-bg"></div>
+			<div class="hero-content">
+				<div class="hero-icon">
+					<svg
+						width="28"
+						height="28"
+						viewBox="0 0 24 24"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<path
+							d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+							fill="currentColor"></path>
+					</svg>
+				</div>
+				<h1 class="hero-title">
+					<em>Sorpresas que transforman vidas</em>
+				</h1>
+				<p class="hero-subtitle">
+					Entrega inmediata con solo la inicial
+				</p>
+				<div class="hero-actions">
+					<a
+						href="https://wa.me/+584121975469"
+						class="btn btn-secondary"
+					>
+						<svg
+							width="18"
+							height="18"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+								fill="currentColor"></path>
+						</svg>
+						Contáctanos
+					</a>
+					<a
+						href="https://wa.me/+584121975469"
+						class="btn btn-outline">Más información</a
+					>
+				</div>
+			</div>
+		</section>
+
+		<!-- Values Section -->
+		<section class="values">
+			<div class="container">
+				<span class="section-tag">NUESTROS VALORES</span>
+				<h2 class="section-title">Compromiso y Transparencia</h2>
+				<p class="section-subtitle">
+					Nos dedicamos a ofrecer la mejor atención personalizada para<br
+					/>
+					cada uno de nuestros clientes.
+				</p>
+
+				<div class="values-grid">
+					<div class="value-card">
+						<div class="value-icon purple">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"
+									fill="currentColor"></path>
+							</svg>
+						</div>
+						<h3 class="value-title">Seguridad</h3>
+						<p class="value-description">
+							Garantizamos la protección de tus datos y
+							transacciones con los más altos estándares.
+						</p>
+					</div>
+
+					<div class="value-card featured">
+						<div class="value-icon purple">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+									fill="currentColor"></path>
+							</svg>
+						</div>
+						<h3 class="value-title">Atención Personalizada</h3>
+						<p class="value-description">
+							"Pensamos en ti..." no es solo un eslogan, es
+							nuestra filosofía de trabajo diaria.
+						</p>
+					</div>
+
+					<div class="value-card">
+						<div class="value-icon purple">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6h-6z"
+									fill="currentColor"></path>
+							</svg>
+						</div>
+						<h3 class="value-title">Crecimiento</h3>
+						<p class="value-description">
+							Impulsamos el desarrollo económico local en
+							Maracaibo y sus alrededores.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section class="contact">
+			<div class="container">
+				<h2 class="section-title">
+					¿Listo para conectar con nosotros?
+				</h2>
+
+				<div class="contact-wrapper">
+					<div class="contact-info">
+						<h3 class="contact-info-title">
+							Información de Contacto
+						</h3>
+
+						<div class="contact-item">
+							<div class="contact-icon">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+										fill="currentColor"></path>
+								</svg>
+							</div>
+							<div class="contact-text">
+								<strong>Dirección</strong>
+								<p>
+									Avenida 99, ENTRE CALLES 88 Y 87<br />
+									LOCAL OFICINA NRO 1 NIVEL PB,<br />
+									SECTOR BELLOSO, Maracaibo,<br />
+									Zulia 4001, Venezuela
+								</p>
+							</div>
+						</div>
+
+						<div class="contact-item">
+							<div class="contact-icon">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+										fill="currentColor"></path>
+								</svg>
+							</div>
+							<div class="contact-text">
+								<strong>Teléfono</strong>
+								<p>
+									<a href="https://wa.me/+584121975469"
+										>+58 412-1975469</a
+									>
+								</p>
+							</div>
+						</div>
+
+						<div class="contact-item">
+							<div class="contact-icon">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+										fill="currentColor"></path>
+								</svg>
+							</div>
+							<div class="contact-text">
+								<strong>Correo Electrónico</strong>
+								<p><a href="#">admin@credisanmcbo.com</a></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="contact-cta">
+						<div class="contact-cta-icon">
+							<svg
+								width="48"
+								height="48"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<circle
+									cx="12"
+									cy="12"
+									r="10"
+									stroke="currentColor"
+									stroke-width="1.5"></circle>
+								<circle
+									cx="12"
+									cy="10"
+									r="3"
+									fill="currentColor"></circle>
+								<path
+									d="M12 14c-4 0-6 2-6 4v1h12v-1c0-2-2-4-6-4z"
+									fill="currentColor"></path>
+							</svg>
+						</div>
+						<p>
+							Estamos disponibles para responder tus dudas y
+							ofrecerte las mejores soluciones.
+						</p>
+						<a
+							href="https://wa.me/+584121975469"
+							class="btn btn-cta"
+						>
+							<svg
+								width="16"
+								height="16"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+									fill="currentColor"></path>
+							</svg>
+							Enviar Mensaje
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-grid">
+					<div class="footer-brand">
+						<a href="#" class="logo footer-logo">
+							<div class="logo-icon">
+								<img
+									src="/images/credisan_logo.jpg"
+									alt="CrediSan Logo"
+									class="logo-img"
+								/>
+							</div>
+							<span class="logo-text">CrediSan</span>
+						</a>
+						<p class="footer-tagline">
+							Comprometidos con el desarrollo y bienestar de
+							nuestros clientes en Maracaibo y todo Venezuela.
+						</p>
+					</div>
+
+					<div class="footer-links">
+						<h4>Enlaces Rápidos</h4>
+						<ul>
+							<li><a href="#">Inicio</a></li>
+							<li><a href="#">Servicios</a></li>
+							<li><a href="#">Nosotros</a></li>
+							<li><a href="#">Contacto</a></li>
+						</ul>
+					</div>
+
+					<div class="footer-links">
+						<h4>Legal</h4>
+						<ul>
+							<li><a href="#">Términos de Servicio</a></li>
+							<li><a href="#">Política de Privacidad</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					<p>© 2023 All right reserved by CREDISANMCBO, C.A.</p>
+					<div class="social-links">
+						<a href="#" aria-label="Facebook">
+							<svg
+								width="20"
+								height="20"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M24 12c0-6.627-5.373-12-12-12S0 5.373 0 12c0 5.99 4.388 10.954 10.125 11.854V15.47H7.078V12h3.047V9.356c0-3.007 1.792-4.668 4.533-4.668 1.312 0 2.686.234 2.686.234v2.953H15.83c-1.491 0-1.956.925-1.956 1.874V12h3.328l-.532 3.469h-2.796v8.385C19.612 22.954 24 17.99 24 12z"
+									fill="currentColor"></path>
+							</svg>
+						</a>
+						<a href="#" aria-label="Instagram">
+							<svg
+								width="20"
+								height="20"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+									fill="currentColor"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
+
+<style>
+	/* ========================================
+	   CSS Variables & Base Styles
+	======================================== */
+	:root {
+		--primary-purple: #5b21b6;
+		--primary-purple-light: #7c3aed;
+		--primary-purple-dark: #4c1d95;
+		--accent-yellow: #fcd34d;
+		--accent-yellow-light: #fde68a;
+		--accent-orange: #f59e0b;
+		--text-dark: #1f2937;
+		--text-gray: #6b7280;
+		--text-light: #9ca3af;
+		--bg-white: #ffffff;
+		--bg-light: #f3f4f6;
+		--bg-purple-dark: #2d1b4e;
+		--shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+		--shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+		--shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+		--shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+		--radius-sm: 8px;
+		--radius-md: 12px;
+		--radius-lg: 16px;
+		--radius-xl: 24px;
+		--transition: all 0.3s ease;
+	}
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		font-family:
+			'Outfit',
+			-apple-system,
+			BlinkMacSystemFont,
+			'Segoe UI',
+			sans-serif;
+		color: var(--text-dark);
+		line-height: 1.6;
+		background: var(--bg-white);
+	}
+
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 24px;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+		transition: var(--transition);
+	}
+
+	/* ========================================
+	   Header Styles
+	======================================== */
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1000;
+		background: var(--bg-white);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.header-container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 16px 24px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.logo-icon {
+		width: 40px;
+		height: 40px;
+		/* background: var(--primary-purple); Remove background since we are using an image */
+		/* border-radius: 50%; Removed to prevent clipping square logo */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		/* overflow: hidden; Removed to prevent clipping */
+	}
+
+	.logo-img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+
+	.logo-text {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: var(--text-dark);
+	}
+
+	.nav {
+		display: flex;
+		align-items: center;
+		gap: 32px;
+	}
+
+	.nav-link {
+		font-weight: 500;
+		color: var(--text-gray);
+	}
+
+	.nav-link:hover {
+		color: var(--primary-purple);
+	}
+
+	.mobile-menu-btn {
+		display: none;
+		flex-direction: column;
+		gap: 4px;
+		background: none;
+		border: none;
+		cursor: pointer;
+		padding: 8px;
+	}
+
+	.mobile-menu-btn span {
+		width: 24px;
+		height: 2px;
+		background: var(--text-dark);
+		border-radius: 2px;
+	}
+
+	/* ========================================
+	   Button Styles
+	======================================== */
+	.btn {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+		padding: 12px 24px;
+		border-radius: 50px;
+		font-weight: 600;
+		font-size: 0.95rem;
+		cursor: pointer;
+		transition: var(--transition);
+	}
+
+	.btn-primary {
+		background: var(--primary-purple);
+		color: white;
+		border: none;
+	}
+
+	.btn-primary:hover {
+		background: var(--primary-purple-dark);
+		transform: translateY(-2px);
+		box-shadow: var(--shadow-md);
+	}
+
+	.btn-secondary {
+		background: var(--primary-purple);
+		color: white;
+		border: none;
+	}
+
+	.btn-secondary:hover {
+		background: var(--primary-purple-dark);
+		transform: translateY(-2px);
+		box-shadow: var(--shadow-md);
+	}
+
+	.btn-outline {
+		background: transparent;
+		color: var(--text-dark);
+		border: 2px solid var(--text-dark);
+	}
+
+	.btn-outline:hover {
+		background: var(--text-dark);
+		color: white;
+		transform: translateY(-2px);
+	}
+
+	.btn-cta {
+		background: linear-gradient(
+			135deg,
+			var(--accent-orange),
+			var(--accent-yellow)
+		);
+		color: var(--text-dark);
+		font-weight: 700;
+		border: none;
+		padding: 14px 32px;
+	}
+
+	.btn-cta:hover {
+		transform: translateY(-2px);
+		box-shadow: var(--shadow-lg);
+	}
+
+	/* ========================================
+	   Hero Section
+	======================================== */
+	.hero {
+		position: relative;
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding-top: 80px;
+		overflow: hidden;
+	}
+
+	.hero-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 20%;
+		background:
+			linear-gradient(
+				180deg,
+				var(--accent-yellow) 0%,
+				var(--accent-yellow-light) 60%,
+				var(--bg-white) 100%
+			),
+			url('/images/credisan_banner.jpg');
+		background-size: cover;
+		background-position: center;
+		background-blend-mode: overlay;
+		z-index: -1;
+	}
+
+	.hero-bg::after {
+		content: '';
+		position: absolute;
+		bottom: -50px;
+		left: 0;
+		right: 0;
+		height: 100px;
+		background: var(--bg-white);
+		border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+	}
+
+	.hero-content {
+		max-width: 700px;
+		padding: 0 24px;
+	}
+
+	.hero-icon {
+		width: 56px;
+		height: 56px;
+		background: linear-gradient(
+			135deg,
+			var(--primary-purple),
+			var(--primary-purple-light)
+		);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		margin: 0 auto 24px;
+		box-shadow:
+			0 0 0 8px rgba(91, 33, 182, 0.15),
+			0 0 0 16px rgba(91, 33, 182, 0.08);
+	}
+
+	.hero-title {
+		font-size: clamp(2rem, 5vw, 3rem);
+		font-weight: 700;
+		color: var(--text-dark);
+		margin-bottom: 20px;
+		line-height: 1.2;
+	}
+
+	.hero-title em {
+		font-style: italic;
+	}
+
+	.hero-subtitle {
+		font-size: 1.1rem;
+		color: var(--text-gray);
+		margin-bottom: 32px;
+	}
+
+	.hero-actions {
+		display: flex;
+		gap: 16px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	/* ========================================
+	   Values Section
+	======================================== */
+	.values {
+		padding: 80px 0;
+		text-align: center;
+	}
+
+	.section-tag {
+		display: inline-block;
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: var(--primary-purple);
+		letter-spacing: 2px;
+		margin-bottom: 12px;
+	}
+
+	.section-title {
+		font-size: clamp(1.75rem, 4vw, 2.25rem);
+		font-weight: 700;
+		color: var(--text-dark);
+		margin-bottom: 16px;
+	}
+
+	.section-subtitle {
+		font-size: 1rem;
+		color: var(--text-gray);
+		margin-bottom: 48px;
+	}
+
+	.values-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 24px;
+	}
+
+	.value-card {
+		background: linear-gradient(135deg, #f8f7ff 0%, #f3f4f6 100%);
+		border-radius: var(--radius-lg);
+		padding: 32px 24px;
+		text-align: left;
+		transition: var(--transition);
+		border: 1px solid rgba(91, 33, 182, 0.1);
+	}
+
+	.value-card:hover {
+		transform: translateY(-4px);
+		box-shadow: var(--shadow-lg);
+	}
+
+	.value-card.featured {
+		background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+		border: 2px solid var(--primary-purple-light);
+	}
+
+	.value-icon {
+		width: 48px;
+		height: 48px;
+		background: var(--primary-purple);
+		border-radius: var(--radius-sm);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		margin-bottom: 20px;
+	}
+
+	.value-title {
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: var(--text-dark);
+		margin-bottom: 12px;
+	}
+
+	.value-description {
+		font-size: 0.95rem;
+		color: var(--text-gray);
+		line-height: 1.6;
+	}
+
+	/* ========================================
+	   Contact Section
+	======================================== */
+	.contact {
+		padding: 80px 0;
+		background: linear-gradient(
+			180deg,
+			var(--bg-light) 0%,
+			var(--bg-white) 100%
+		);
+	}
+
+	.contact .section-title {
+		margin-bottom: 48px;
+	}
+
+	.contact-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 32px;
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	.contact-info {
+		background: var(--primary-purple);
+		border-radius: var(--radius-xl);
+		padding: 32px;
+		color: white;
+	}
+
+	.contact-info-title {
+		font-size: 1.25rem;
+		font-weight: 700;
+		margin-bottom: 24px;
+	}
+
+	.contact-item {
+		display: flex;
+		gap: 16px;
+		margin-bottom: 20px;
+	}
+
+	.contact-icon {
+		width: 32px;
+		height: 32px;
+		background: rgba(255, 255, 255, 0.2);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+	}
+
+	.contact-text strong {
+		display: block;
+		font-size: 0.95rem;
+		margin-bottom: 4px;
+	}
+
+	.contact-text p {
+		font-size: 0.85rem;
+		opacity: 0.9;
+		line-height: 1.5;
+	}
+
+	.contact-text a {
+		color: var(--accent-yellow);
+	}
+
+	.contact-text a:hover {
+		text-decoration: underline;
+	}
+
+	.contact-cta {
+		background: var(--bg-white);
+		border-radius: var(--radius-xl);
+		padding: 32px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		box-shadow: var(--shadow-md);
+	}
+
+	.contact-cta-icon {
+		color: var(--primary-purple);
+		opacity: 0.6;
+		margin-bottom: 16px;
+	}
+
+	.contact-cta p {
+		font-size: 0.95rem;
+		color: var(--text-gray);
+		margin-bottom: 24px;
+	}
+
+	/* ========================================
+	   Footer
+	======================================== */
+	.footer {
+		background: var(--bg-purple-dark);
+		color: white;
+		padding: 64px 0 32px;
+	}
+
+	.footer-grid {
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr;
+		gap: 48px;
+		margin-bottom: 48px;
+	}
+
+	.footer-logo .logo-icon {
+		background: rgba(255, 255, 255, 0.2);
+	}
+
+	.footer-logo .logo-text {
+		color: white;
+	}
+
+	.footer-tagline {
+		margin-top: 16px;
+		font-size: 0.9rem;
+		opacity: 0.8;
+		max-width: 300px;
+	}
+
+	.footer-links h4 {
+		font-size: 1rem;
+		font-weight: 600;
+		margin-bottom: 20px;
+		color: var(--accent-yellow);
+	}
+
+	.footer-links ul {
+		list-style: none;
+	}
+
+	.footer-links li {
+		margin-bottom: 12px;
+	}
+
+	.footer-links a {
+		font-size: 0.9rem;
+		opacity: 0.8;
+	}
+
+	.footer-links a:hover {
+		opacity: 1;
+		color: var(--accent-yellow);
+	}
+
+	.footer-bottom {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-top: 32px;
+		border-top: 1px solid rgba(255, 255, 255, 0.1);
+	}
+
+	.footer-bottom p {
+		font-size: 0.85rem;
+		opacity: 0.7;
+	}
+
+	.social-links {
+		display: flex;
+		gap: 16px;
+	}
+
+	.social-links a {
+		width: 36px;
+		height: 36px;
+		background: rgba(255, 255, 255, 0.1);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: var(--transition);
+	}
+
+	.social-links a:hover {
+		background: var(--primary-purple-light);
+		transform: translateY(-2px);
+	}
+
+	/* ========================================
+	   Responsive Styles
+	======================================== */
+	@media (max-width: 768px) {
+		.nav {
+			display: none;
+		}
+
+		.mobile-menu-btn {
+			display: flex;
+		}
+
+		.values-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.contact-wrapper {
+			grid-template-columns: 1fr;
+		}
+
+		.footer-grid {
+			grid-template-columns: 1fr;
+			gap: 32px;
+		}
+
+		.footer-bottom {
+			flex-direction: column;
+			gap: 16px;
+			text-align: center;
+		}
+
+		.hero-subtitle br {
+			display: none;
+		}
+
+		.section-subtitle br {
+			display: none;
+		}
+	}
+</style>
